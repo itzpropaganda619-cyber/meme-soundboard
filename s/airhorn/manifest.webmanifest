@@ -1,0 +1,23 @@
+{
+ "name": "Airhorn",
+ "short_name": "Airhorn",
+ "id": "./s/airhorn/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f97316",
+ "theme_color": "#f97316",
+ "icons": [
+  {
+   "src": "../../icons/airhorn-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/airhorn-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

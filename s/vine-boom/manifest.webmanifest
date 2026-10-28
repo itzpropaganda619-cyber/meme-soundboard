@@ -1,0 +1,23 @@
+{
+ "name": "Vine Boom",
+ "short_name": "Vine Boom",
+ "id": "./s/vine-boom/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#ef4444",
+ "theme_color": "#ef4444",
+ "icons": [
+  {
+   "src": "../../icons/vine-boom-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/vine-boom-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
