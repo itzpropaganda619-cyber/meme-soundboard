@@ -18,4 +18,6 @@ elif [[ -n "${RENDER_API_KEY:-}" && -s tools/.render_service_id ]]; then
 else
   echo "NOTE: no deploy hook/API key on box; if Render doesn't auto-deploy, trigger it (Render MCP trigger_deploy)."
 fi
-# GitHub Pages mirror (if enabled) rebuilds automatically on push.
+# GitHub Pages mirror: publish public/ to the gh-pages branch (Pages rebuilds automatically, no extra auth needed)
+SPLIT=$(git subtree split --prefix public main 2>/dev/null)
+git push -qf origin "$SPLIT:refs/heads/gh-pages" && echo "gh-pages updated (GitHub Pages mirror rebuilds in ~1 min)"
