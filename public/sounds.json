@@ -151,5 +151,14 @@
   "file": "spongebob-fail.mp3",
   "duration": 3.4,
   "source": "https://www.myinstants.com/media/sounds/spongebob-fail.mp3"
+ },
+ {
+  "slug": "robert-b-weide",
+  "name": "Directed By Robert B. Weide",
+  "emoji": "🎬",
+  "color": "#0f172a",
+  "file": "robert-b-weide.mp3",
+  "duration": 6.03,
+  "source": "https://www.youtube.com/watch?v=h3RNElMbdUY"
  }
 ]
