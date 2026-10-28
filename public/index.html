@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>🔊 Meme Soundboard</title>
+<meta name="theme-color" content="#14081f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Soundboard">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/app-180.png">
+<link rel="icon" type="image/png" href="icons/app-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>🔊 Soundboard</h1>
+  <div class="actions">
+    <button id="mode" class="chip" title="Overlap mode">Overlap: on</button>
+    <button id="stop" class="chip stop" title="Stop all">■ Stop</button>
+  </div>
+</header>
+<input id="q" class="search" type="search" placeholder="Search sounds…" autocomplete="off">
+<main id="grid" class="grid" aria-live="polite"></main>
+<p class="foot">Long-press a button to get its own link → open it → Share → <b>Add to Home Screen</b> for a one-tap icon.</p>
+<div id="sheet" class="sheet hidden">
+  <div class="sheet-card">
+    <div class="sheet-title" id="sheetTitle"></div>
+    <a id="sheetOpen" class="sheet-btn" href="#">Open single-sound page</a>
+    <button id="sheetCopy" class="sheet-btn">Copy link</button>
+    <button id="sheetClose" class="sheet-btn ghost">Close</button>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

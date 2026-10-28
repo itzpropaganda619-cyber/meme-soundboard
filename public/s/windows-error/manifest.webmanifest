@@ -1,0 +1,23 @@
+{
+ "name": "Windows Error",
+ "short_name": "Windows Erro",
+ "id": "./s/windows-error/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0ea5e9",
+ "theme_color": "#0ea5e9",
+ "icons": [
+  {
+   "src": "../../icons/windows-error-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/windows-error-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

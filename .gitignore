@@ -1,0 +1,4 @@
+__pycache__/
+*.clip.wav
+tools/.render_deploy_hook
+tools/.render_service_id
