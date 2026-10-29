@@ -1,0 +1,23 @@
+{
+ "name": "Smell of Napalm",
+ "short_name": "Smell of Nap",
+ "id": "./s/napalm/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#9a3412",
+ "theme_color": "#9a3412",
+ "icons": [
+  {
+   "src": "../../icons/napalm-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/napalm-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

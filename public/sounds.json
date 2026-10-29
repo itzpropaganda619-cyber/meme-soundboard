@@ -34,5 +34,23 @@
   "file": "we-got-him.mp3",
   "duration": 3.0,
   "source": "/workspace/previews/we-got-him.mp3"
+ },
+ {
+  "slug": "look-at-me",
+  "name": "Look at Me When You're Talking to Me",
+  "emoji": "😤",
+  "color": "#f59e0b",
+  "file": "look-at-me.mp3",
+  "duration": 2.06,
+  "source": "/workspace/previews/look-at-me.mp3"
+ },
+ {
+  "slug": "napalm",
+  "name": "Smell of Napalm",
+  "emoji": "🚁",
+  "color": "#9a3412",
+  "file": "napalm.mp3",
+  "duration": 2.19,
+  "source": "/workspace/previews/napalm.mp3"
  }
 ]
