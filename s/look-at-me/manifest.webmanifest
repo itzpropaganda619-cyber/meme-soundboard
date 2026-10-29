@@ -1,0 +1,23 @@
+{
+ "name": "Look at Me When You're Talking to Me",
+ "short_name": "Look at Me W",
+ "id": "./s/look-at-me/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f59e0b",
+ "theme_color": "#f59e0b",
+ "icons": [
+  {
+   "src": "../../icons/look-at-me-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/look-at-me-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
