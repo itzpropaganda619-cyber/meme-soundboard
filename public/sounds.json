@@ -61,5 +61,14 @@
   "file": "finisher-car.mp3",
   "duration": 11.05,
   "source": "/workspace/previews/finisher-car.mp3"
+ },
+ {
+  "slug": "begone",
+  "name": "Begone",
+  "emoji": "🧙",
+  "color": "#6d28d9",
+  "file": "begone.mp3",
+  "duration": 2.8,
+  "source": "/workspace/previews/begone.mp3"
  }
 ]
