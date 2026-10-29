@@ -60,6 +60,7 @@
     document.getElementById("sheetTitle").textContent = `${snd.emoji} ${snd.name}`;
     const url = linkFor(snd.slug);
     document.getElementById("sheetOpen").href = url;
+    document.getElementById("sheetSc").href = "shortcuts/#" + snd.slug;
     document.getElementById("sheetCopy").onclick = async () => {
       try { if (navigator.share) await navigator.share({ title: snd.name, url }); else { await navigator.clipboard.writeText(url); document.getElementById("sheetCopy").textContent = "Copied!"; } } catch (e) {}
     };
