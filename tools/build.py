@@ -2,6 +2,7 @@
 """Regenerate everything derived from public/sounds.json:
 - icons (app + per-sound PNGs)
 - per-sound deep-link pages  public/s/<slug>/index.html + manifest
+- iOS Shortcuts page public/shortcuts/ + signed .shortcut per sound (tools/shortcuts.py)
 - service worker cache version
 Run:  python3 tools/build.py
 """
@@ -130,6 +131,10 @@ def main():
             if d.is_dir() and d.name not in keep:
                 for f in d.iterdir(): f.unlink()
                 d.rmdir()
+    # iOS Shortcuts page + signed .shortcut files (public/shortcuts/)
+    sys.path.insert(0, str(ROOT / "tools"))
+    import shortcuts
+    shortcuts.build_page(sounds, ver)
     # service worker with versioned cache + precache list
     precache = ["./", "index.html", "app.js", "single.js", "style.css", "sounds.json", "manifest.webmanifest",
                 "icons/app-180.png", "icons/app-192.png", "icons/app-512.png"]

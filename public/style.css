@@ -41,3 +41,27 @@ body.single{background:radial-gradient(100% 70% at 50% 0%,color-mix(in srgb,var(
 .tap-text{font-size:40px;font-weight:900;margin-top:10px}
 .tap-sub{font-size:18px;opacity:.85;margin-top:6px}
 @keyframes pulse{50%{transform:scale(1.12)}}
+/* shortcuts page */
+body.sc .top{flex-wrap:wrap;gap:8px}
+body.sc .top a.chip{text-decoration:none}
+.card{background:#ffffff10;border-radius:18px;padding:14px 16px;margin:8px 0 14px}
+.card h2{font-size:17px;margin:0 0 6px}
+.steps ol{margin:6px 0;padding-left:22px;line-height:1.45}
+.steps li{margin:6px 0}
+.steps small{color:var(--muted)}
+.steps summary{cursor:pointer;font-size:16px}
+.note{color:var(--muted);font-size:13.5px;line-height:1.4;margin:8px 0 0}
+.sc-list{display:flex;flex-direction:column;gap:10px}
+.sc-item{border-radius:18px;padding:12px;background:linear-gradient(160deg,color-mix(in srgb,var(--c) 55%,#14081f),color-mix(in srgb,var(--c) 25%,#14081f));-webkit-user-select:text;user-select:text}
+.sc-item.hl{outline:3px solid #fff}
+.sc-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sc-emoji{font-size:30px;line-height:1}
+.sc-name{font-weight:900;font-size:17px;flex:1;min-width:110px}
+.sc-btns{display:flex;gap:6px;flex-wrap:wrap}
+.sc-btns a{text-decoration:none}
+.chip.add{background:#fff;color:#14081f}
+.chip.ghost{background:#ffffff26}
+.sc-url{display:flex;align-items:center;gap:8px;margin-top:10px}
+.sc-url code{flex:1;min-width:0;font-size:12px;background:#0004;padding:8px 10px;border-radius:10px;overflow-x:auto;white-space:nowrap;color:#e9ddff}
+.sc-url .copy{flex:none}
+.sc-url code{scrollbar-width:none}.sc-url code::-webkit-scrollbar{display:none}
