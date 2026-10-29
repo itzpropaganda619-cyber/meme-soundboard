@@ -1,0 +1,23 @@
+{
+ "name": "Begone",
+ "short_name": "Begone",
+ "id": "./s/begone/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#6d28d9",
+ "theme_color": "#6d28d9",
+ "icons": [
+  {
+   "src": "../../icons/begone-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/begone-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
