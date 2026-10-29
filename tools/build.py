@@ -124,6 +124,12 @@ def main():
             ],
         }
         (d / "manifest.webmanifest").write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    # remove icons for deleted sounds
+    for f in (PUB / "icons").iterdir():
+        stem = f.name.lstrip(".").rsplit(".", 1)[0]
+        slug = stem.rsplit("-", 1)[0] if f.suffix == ".png" else stem
+        if slug != "app" and slug not in keep:
+            f.unlink()
     # remove pages for deleted sounds
     sdir = PUB / "s"
     if sdir.exists():
