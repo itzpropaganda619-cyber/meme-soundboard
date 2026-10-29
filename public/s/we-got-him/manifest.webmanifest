@@ -1,0 +1,23 @@
+{
+ "name": "We Got Him",
+ "short_name": "We Got Him",
+ "id": "./s/we-got-him/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#1e3a8a",
+ "theme_color": "#1e3a8a",
+ "icons": [
+  {
+   "src": "../../icons/we-got-him-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/we-got-him-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
