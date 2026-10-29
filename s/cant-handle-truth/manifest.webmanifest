@@ -1,0 +1,23 @@
+{
+ "name": "Can't Handle the Truth",
+ "short_name": "Can't Handle",
+ "id": "./s/cant-handle-truth/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#1e40af",
+ "theme_color": "#1e40af",
+ "icons": [
+  {
+   "src": "../../icons/cant-handle-truth-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/cant-handle-truth-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

@@ -70,5 +70,59 @@
   "file": "begone.mp3",
   "duration": 2.8,
   "source": "/workspace/previews/begone.mp3"
+ },
+ {
+  "slug": "heres-johnny",
+  "name": "Here's Johnny!",
+  "emoji": "🪓",
+  "color": "#991b1b",
+  "file": "heres-johnny.mp3",
+  "duration": 1.72,
+  "source": "/workspace/previews/movie-heres-johnny.mp3"
+ },
+ {
+  "slug": "cant-handle-truth",
+  "name": "Can't Handle the Truth",
+  "emoji": "⚖️",
+  "color": "#1e40af",
+  "file": "cant-handle-truth.mp3",
+  "duration": 4.18,
+  "source": "/workspace/previews/movie-cant-handle-truth.mp3"
+ },
+ {
+  "slug": "little-friend",
+  "name": "Say Hello to My Little Friend",
+  "emoji": "🔫",
+  "color": "#be123c",
+  "file": "little-friend.mp3",
+  "duration": 2.35,
+  "source": "/workspace/previews/movie-little-friend.mp3"
+ },
+ {
+  "slug": "show-me-the-money",
+  "name": "Show Me the Money!",
+  "emoji": "💰",
+  "color": "#15803d",
+  "file": "show-me-the-money.mp3",
+  "duration": 2.09,
+  "source": "/workspace/previews/movie-show-me-the-money.mp3"
+ },
+ {
+  "slug": "not-entertained",
+  "name": "Are You Not Entertained?!",
+  "emoji": "⚔️",
+  "color": "#a16207",
+  "file": "not-entertained.mp3",
+  "duration": 4.34,
+  "source": "/workspace/previews/movie-not-entertained.mp3"
+ },
+ {
+  "slug": "bigger-boat",
+  "name": "Bigger Boat",
+  "emoji": "🦈",
+  "color": "#0369a1",
+  "file": "bigger-boat.mp3",
+  "duration": 1.59,
+  "source": "/workspace/previews/movie-bigger-boat.mp3"
  }
 ]

@@ -1,0 +1,23 @@
+{
+ "name": "Bigger Boat",
+ "short_name": "Bigger Boat",
+ "id": "./s/bigger-boat/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#0369a1",
+ "theme_color": "#0369a1",
+ "icons": [
+  {
+   "src": "../../icons/bigger-boat-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/bigger-boat-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
