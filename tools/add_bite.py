@@ -58,6 +58,9 @@ def download(url, tmp):
         title = re.search(r"<h1[^>]*>([^<]+)</h1>", page)
         out = tmp / "src.mp3"; fetch("https://www.myinstants.com" + mp3.group(0), out)
         return out, (title.group(1).strip() if title else None)
+    if Path(url).expanduser().is_file():  # local audio/video file
+        src = Path(url).expanduser(); out = tmp / ("src" + src.suffix); shutil.copyfile(src, out)
+        return out, src.stem.replace("_", " ").replace("-", " ")
     if AUDIO_EXT.search(url.split("#")[0]):
         out = tmp / ("src" + AUDIO_EXT.search(url).group(0).split("?")[0])
         try:
@@ -68,7 +71,9 @@ def download(url, tmp):
     info = subprocess.run(["yt-dlp", "--no-playlist", "--print", "%(title)s", "--skip-download", url],
                           capture_output=True, text=True)
     title = info.stdout.strip().splitlines()[0] if info.returncode == 0 and info.stdout.strip() else None
-    run(["yt-dlp", "--no-playlist", "-f", "bestaudio/best", "-x", "--audio-format", "wav",
+    # TikTok's separate "audio" format is often the background track / a stub, so take a muxed video stream there
+    fmt = "best[vcodec^=h264][acodec!=none]/best[acodec!=none]/best" if "tiktok.com" in url else "bestaudio/best"
+    run(["yt-dlp", "--no-playlist", "-f", fmt, "-x", "--audio-format", "wav",
          "-o", str(tmp / "src.%(ext)s"), url])
     files = sorted(tmp.glob("src.*"))
     if not files: sys.exit("yt-dlp produced no file")
