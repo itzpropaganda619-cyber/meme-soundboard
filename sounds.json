@@ -160,5 +160,14 @@
   "file": "robert-b-weide.mp3",
   "duration": 6.03,
   "source": "https://www.youtube.com/watch?v=h3RNElMbdUY"
+ },
+ {
+  "slug": "hit-the-road-dude",
+  "name": "Hit the Road Dude",
+  "emoji": "🛻",
+  "color": "#b45309",
+  "file": "hit-the-road-dude.mp3",
+  "duration": 4.47,
+  "source": "https://www.tiktok.com/@bird28thegr8/video/7541156735361289485"
  }
 ]
