@@ -1,0 +1,23 @@
+{
+ "name": "Here's Johnny!",
+ "short_name": "Here's Johnn",
+ "id": "./s/heres-johnny/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#991b1b",
+ "theme_color": "#991b1b",
+ "icons": [
+  {
+   "src": "../../icons/heres-johnny-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/heres-johnny-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
