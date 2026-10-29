@@ -52,5 +52,14 @@
   "file": "napalm.mp3",
   "duration": 2.19,
   "source": "/workspace/previews/napalm.mp3"
+ },
+ {
+  "slug": "finisher-car",
+  "name": "Finisher Car",
+  "emoji": "🚙",
+  "color": "#ca8a04",
+  "file": "finisher-car.mp3",
+  "duration": 11.05,
+  "source": "/workspace/previews/finisher-car.mp3"
  }
 ]
