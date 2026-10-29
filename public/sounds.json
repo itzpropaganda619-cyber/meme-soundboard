@@ -25,5 +25,104 @@
   "file": "dr-pepper.mp3",
   "duration": 6.09,
   "source": "https://www.myinstants.com/en/instant/is-that-that-dr-pepper-32887/"
+ },
+ {
+  "slug": "aint-nobody-got-time",
+  "name": "Ain't Nobody Got Time for That",
+  "emoji": "⏰",
+  "color": "#c2410c",
+  "file": "aint-nobody-got-time.mp3",
+  "duration": 1.65,
+  "source": "/workspace/bites2/raw_ain1.mp3"
+ },
+ {
+  "slug": "hide-yo-kids",
+  "name": "Hide Yo Kids, Hide Yo Wife",
+  "emoji": "🏃",
+  "color": "#7c3aed",
+  "file": "hide-yo-kids.mp3",
+  "duration": 2.77,
+  "source": "/workspace/bites2/raw_hide1.mp3"
+ },
+ {
+  "slug": "damn-daniel",
+  "name": "Damn Daniel",
+  "emoji": "👟",
+  "color": "#e5e7eb",
+  "file": "damn-daniel.mp3",
+  "duration": 4.68,
+  "source": "/workspace/bites2/raw_dan3.mp3"
+ },
+ {
+  "slug": "road-work-ahead",
+  "name": "Road Work Ahead",
+  "emoji": "🚧",
+  "color": "#f59e0b",
+  "file": "road-work-ahead.mp3",
+  "duration": 6.48,
+  "source": "/workspace/bites2/raw_road1.mp3"
+ },
+ {
+  "slug": "its-corn",
+  "name": "It's Corn!",
+  "emoji": "🌽",
+  "color": "#eab308",
+  "file": "its-corn.mp3",
+  "duration": 4.81,
+  "source": "/workspace/bites2/raw_corn1.mp3"
+ },
+ {
+  "slug": "what-are-those",
+  "name": "What Are Those?!",
+  "emoji": "👀",
+  "color": "#1d4ed8",
+  "file": "what-are-those.mp3",
+  "duration": 5.85,
+  "source": "/workspace/bites2/raw_wat4.mp3"
+ },
+ {
+  "slug": "leave-britney-alone",
+  "name": "Leave Britney Alone!",
+  "emoji": "😭",
+  "color": "#db2777",
+  "file": "leave-britney-alone.mp3",
+  "duration": 2.48,
+  "source": "/workspace/bites2/raw_brit1.mp3"
+ },
+ {
+  "slug": "i-like-turtles",
+  "name": "I Like Turtles",
+  "emoji": "🐢",
+  "color": "#15803d",
+  "file": "i-like-turtles.mp3",
+  "duration": 1.41,
+  "source": "/workspace/bites2/raw_turt2.mp3"
+ },
+ {
+  "slug": "very-demure",
+  "name": "Very Demure",
+  "emoji": "💅",
+  "color": "#f9a8d4",
+  "file": "very-demure.mp3",
+  "duration": 4.73,
+  "source": "/workspace/bites2/raw_dem1.mp3"
+ },
+ {
+  "slug": "bombastic-side-eye",
+  "name": "Bombastic Side Eye",
+  "emoji": "🫣",
+  "color": "#9333ea",
+  "file": "bombastic-side-eye.mp3",
+  "duration": 6.27,
+  "source": "/workspace/bites2/raw_bomb1.mp3"
+ },
+ {
+  "slug": "dropped-my-croissant",
+  "name": "Dropped My Croissant",
+  "emoji": "🥐",
+  "color": "#d97706",
+  "file": "dropped-my-croissant.mp3",
+  "duration": 3.4,
+  "source": "/workspace/bites2/raw_croi2.mp3"
  }
 ]

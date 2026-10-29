@@ -1,0 +1,23 @@
+{
+ "name": "It's Corn!",
+ "short_name": "It's Corn!",
+ "id": "./s/its-corn/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#eab308",
+ "theme_color": "#eab308",
+ "icons": [
+  {
+   "src": "../../icons/its-corn-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/its-corn-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
