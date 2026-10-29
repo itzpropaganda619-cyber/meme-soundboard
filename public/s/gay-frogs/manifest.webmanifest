@@ -1,0 +1,23 @@
+{
+ "name": "Gay Frogs",
+ "short_name": "Gay Frogs",
+ "id": "./s/gay-frogs/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#16a34a",
+ "theme_color": "#16a34a",
+ "icons": [
+  {
+   "src": "../../icons/gay-frogs-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/gay-frogs-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
