@@ -5,8 +5,8 @@
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
- "background_color": "#b45309",
- "theme_color": "#b45309",
+ "background_color": "#7f1d1d",
+ "theme_color": "#7f1d1d",
  "icons": [
   {
    "src": "../../icons/stupid-bitch-192.png",
