@@ -1,0 +1,23 @@
+{
+ "name": "You Stupid Bitch",
+ "short_name": "You Stupid B",
+ "id": "./s/stupid-bitch/",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#b45309",
+ "theme_color": "#b45309",
+ "icons": [
+  {
+   "src": "../../icons/stupid-bitch-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "../../icons/stupid-bitch-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
