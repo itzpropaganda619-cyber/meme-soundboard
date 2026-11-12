@@ -133,5 +133,14 @@
   "file": "stupid-bitch.mp3",
   "duration": 8.62,
   "source": "/workspace/previews/cartoon-stupid-bitch.mp3"
+ },
+ {
+  "slug": "hold-20",
+  "name": "Let Me Hold 20",
+  "emoji": "🐒",
+  "color": "#92400e",
+  "file": "hold-20.mp3",
+  "duration": 1.91,
+  "source": "/workspace/previews/monkey-hold-20.mp3"
  }
 ]
