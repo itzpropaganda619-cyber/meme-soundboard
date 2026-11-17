@@ -151,5 +151,14 @@
   "file": "ndt-columbus.mp3",
   "duration": 13.14,
   "source": "/workspace/previews/raw/ndt/H9CG07CzBTg.mp4"
+ },
+ {
+  "slug": "ndt-newton",
+  "name": "Newton Glaze",
+  "emoji": "🍎",
+  "color": "#b91c1c",
+  "file": "ndt-newton.mp3",
+  "duration": 27.64,
+  "source": "https://www.youtube.com/watch?v=danYFxGnFxQ"
  }
 ]
